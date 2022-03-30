@@ -34,6 +34,52 @@ public class HW_4_1 {
         }
         System.out.println(b);
 
+        System.out.println();
+        System.out.println("Task 4");
+
+        System.out.println(a / array.length);
+
+        System.out.println();
+        System.out.println("Task 5");
+
+        a = 0;
+        int[][] arr2 = {
+                {1, 2, 3, 4, 5},
+                {6, 7, 8, 9},
+                {-1, -2, -3, -4},
+                {-5, -6}
+        };
+
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = 0; j < arr2[i].length; j++) {
+                a = a + arr2[i][j];
+            }
+        }
+        System.out.println(a);
+
+        System.out.println();
+        System.out.println("Task 6");
+        int s = arr2[0][0];
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = 0; j < arr2[i].length; j++) {
+                if (s < arr2[i][j])
+                    s = arr2[i][j];
+            }
+        }
+        System.out.println(s);
+
+        System.out.println();
+        a = 0;
+        System.out.println("Task 7");
+        for (int i = 0; i < arr2.length; i++) {
+            a = a + arr2[i      ].length;
+        }
+        System.out.println(a);
+
+
+
+
+
 
 
 
