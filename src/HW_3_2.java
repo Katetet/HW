@@ -10,6 +10,7 @@ public class HW_3_2 {
         System.out.println("");
 
         System.out.println("Задача №2");
+
         for (int i = 5; i < 10000; i = i * 5) {
             System.out.println(i);
         }
