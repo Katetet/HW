@@ -1,17 +1,16 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class HW_4_1 {
     public static void main(String[] args) {
 
 
-        System.out.println();
-        System.out.println("Task 1");
-        System.out.println();
         int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
-        int a;
-        a = 0;
+        System.out.println(Arrays.toString(array));
+        System.out.println("Task 1");
+        int a = 0;
         for (int i = 0; i < array.length; i++) {
-            a = a + array[i];
+            a += array[i];
         }
         System.out.println(a);
 
@@ -50,9 +49,10 @@ public class HW_4_1 {
                 {-5, -6}
         };
 
+
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 0; j < arr2[i].length; j++) {
-                a = a + arr2[i][j];
+                a += arr2[i][j];
             }
         }
         System.out.println(a);
@@ -72,15 +72,9 @@ public class HW_4_1 {
         a = 0;
         System.out.println("Task 7");
         for (int i = 0; i < arr2.length; i++) {
-            a = a + arr2[i      ].length;
+            a += arr2[i].length;
         }
         System.out.println(a);
-
-
-
-
-
-
 
 
     }
